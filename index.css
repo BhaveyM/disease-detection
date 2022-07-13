@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background : linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+.container{
+    max-width: 300px;
+    width: 100%;
+    background: cornsilk;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.container .title{
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+}
+
+.container .button input{
+    height: 30px;
+    width: 100%;
+    outline: none;
+    color: #fff;
+    background: linear-gradient(135deg, #9b59b6, #71b7e6);
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 5px;
+}
